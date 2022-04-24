@@ -36,10 +36,12 @@ h3, .mail, .logo, .paticka>p>a, .paticka>ul>li>a, .socky {
     font-size: 12px;
 }
 
-.logo {
-    font-weight: bold !important;
-    font-style: italic !important;
-    font-size: 35px !important;
+@media screen and (min-width: 568px) { 
+    .logo {        
+        font-weight: bold !important;
+        font-style: italic !important;
+        font-size: 35px !important; 
+    }    
 }
 
 .paticka {
