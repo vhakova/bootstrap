@@ -32,6 +32,10 @@ h3, .mail, .logo, .paticka>p>a, .paticka>ul>li>a, .socky {
     font-size: 20px;
 }
 
+.credits {
+    font-size: 12px;
+}
+
 .logo {
     font-weight: bold !important;
     font-style: italic !important;
