@@ -13,3 +13,29 @@ světle šedá: #f0f0f0
 */
 
 /* --- pod tuto čáru piš svoje CSS --- */
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3, a {
+    color: #c5308a;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #881c5d;
+}
+
+.akce {
+    background-color: #c5308a;
+    color: white;
+}
