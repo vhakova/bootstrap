@@ -21,28 +21,28 @@
 </head>
 <body>
 	<!-- Hlavni menu -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-0">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">Kadeřnictví Scissors</a>
+		  <a class="navbar-brand logo" href="#">Kadeřnictví Scissors</a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-auto">
 			  <li class="nav-item">
-				<a class="nav-link" href="#kadernice">Kadeřnice</a>
+				<a class="nav-link px-4" href="#kadernice">Kadeřnice</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#sluzby">Služby</a>
+				<a class="nav-link px-4" href="#sluzby">Služby</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#reference">Řekli o nás</a>
+				<a class="nav-link px-4" href="#reference">Řekli o nás</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#fotogalerie">Fotogalerie</a>
+				<a class="nav-link px-4" href="#fotogalerie">Fotogalerie</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#kontakt">Kontakt</a>
+				<a class="nav-link px-4" href="#kontakt">Kontakt</a>
 			  </li>
 			</ul>
 		  </div>
@@ -50,9 +50,30 @@
 	  </nav>
 
 	<!-- Obrazek -->
-	<img class="img-fluid" src="images/carousel1.jpg" alt="Kadeřnictví">
 
+	<div id="mojeCarousel" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="images/carousel1.jpg" class="d-block w-100" alt="fotka z kadeřnictví">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/carousel2.jpg" class="d-block w-100" alt="fotka z kadeřnictví">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/carousel3.jpg" class="d-block w-100" alt="fotka z kadeřnictví">
+		  </div>
+		</div>
 
+		<button class="carousel-control-prev" type="button" data-bs-target="#mojeCarousel" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Předchozí</span>
+		</button>
+
+		<button class="carousel-control-next" type="button" data-bs-target="#mojeCarousel" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Další</span>
+		</button>
+	</div>
 
 	<!-- Akce, novinky -->
 	<section class="akce py-3">
@@ -226,40 +247,40 @@
 
 			<div class="row g-0">
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto01.jpg" alt="Foto 01">
+					<img class="fotka img-fluid" src="images/foto01.jpg" alt="Foto 01">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto02.jpg" alt="Foto 02">
+					<img class="fotka img-fluid" src="images/foto02.jpg" alt="Foto 02">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto03.jpg" alt="Foto 03">
+					<img class="fotka img-fluid" src="images/foto03.jpg" alt="Foto 03">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto04.jpg" alt="Foto 04">
+					<img class="fotka img-fluid" src="images/foto04.jpg" alt="Foto 04">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto05.jpg" alt="Foto 05">
+					<img class="fotka img-fluid" src="images/foto05.jpg" alt="Foto 05">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto06.jpg" alt="Foto 06">
+					<img class="fotka img-fluid" src="images/foto06.jpg" alt="Foto 06">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto07.jpg" alt="Foto 07">
+					<img class="fotka img-fluid" src="images/foto07.jpg" alt="Foto 07">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto08.jpg" alt="Foto 08">
+					<img class="fotka img-fluid" src="images/foto08.jpg" alt="Foto 08">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto09.jpg" alt="Foto 09">
+					<img class="fotka img-fluid" src="images/foto09.jpg" alt="Foto 09">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto10.jpg" alt="Foto 10">
+					<img class="fotka img-fluid" src="images/foto10.jpg" alt="Foto 10">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto11.jpg" alt="Foto 11">
+					<img class="fotka img-fluid" src="images/foto11.jpg" alt="Foto 11">
 				</div>
 				<div class="col-4 col-sm-3 col-lg-2">
-					<img class="img-fluid" src="images/foto12.jpg" alt="Foto 12">
+					<img class="fotka img-fluid" src="images/foto12.jpg" alt="Foto 12">
 				</div>
 			</div>
 		</div>
@@ -307,7 +328,7 @@
 						Praha 1, 101 00
 					</p>
 
-					<p><a href="mailto:ahoj@scissors.cz">ahoj@scissors.cz</a></p>
+					<p><a class="mail" href="mailto:ahoj@scissors.cz">ahoj@scissors.cz</a></p>
 
 					<p>Telefonické objednávky:<br>+420 123 456 789</p>
 				</div>
@@ -326,25 +347,33 @@
 
 
 	<!-- Paticka -->
+	<div class="paticka text-center my-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-8"><p>&copy;2017, Czechitas. Vyrobeno pro workshop Tvořím web: Bootstrap.</p></div>
+				<div class="col-4">		
+					<ul class="d-flex">
+						<li class="list-unstyled mx-3"><a class="socky" href="https://www.facebook.com/czechitas">Facebook</a></li>
+						<li class="list-unstyled mx-3"><a class="socky" href="https://twitter.com/czechitas">Twitter</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-	<p>&copy;2017, Czechitas. Vyrobeno pro workshop Tvořím web: Bootstrap.</p>
+		<p>
+			Photos from Flickr.com under Creative Commons license, courtesy of
+			<a href="https://www.flickr.com/photos/mike-owens/">Mike Owens</a>,
+			<a href="https://www.flickr.com/photos/colourauthority/">Denise Mahoney</a>,
+			<a href="https://www.flickr.com/photos/apachesenzala/">Apaché Senzala</a>,
+			<a href="https://www.flickr.com/photos/rtdphotography/">Ray Dumas</a>,
+			<a href="https://www.flickr.com/photos/remyhairweft/">Lucy He</a>,
+			<a href="https://www.flickr.com/photos/aliciacody/">Alicia Hotovec-Ellis</a>,
+			<a href="https://www.flickr.com/photos/jdaykin/">Jerrz Daykin</a>,
+			<a href="https://www.flickr.com/photos/paladin27/">Paladin 27</a>
+		</p>
+	</div>
 
-	<ul>
-		<li><a href="https://www.facebook.com/czechitas">Facebook</a></li>
-		<li><a href="https://twitter.com/czechitas">Twitter</a></li>
-	</ul>
-
-	<p>
-		Photos from Flickr.com under Creative Commons license, courtesy of
-		<a href="https://www.flickr.com/photos/mike-owens/">Mike Owens</a>,
-		<a href="https://www.flickr.com/photos/colourauthority/">Denise Mahoney</a>,
-		<a href="https://www.flickr.com/photos/apachesenzala/">Apaché Senzala</a>,
-		<a href="https://www.flickr.com/photos/rtdphotography/">Ray Dumas</a>,
-		<a href="https://www.flickr.com/photos/remyhairweft/">Lucy He</a>,
-		<a href="https://www.flickr.com/photos/aliciacody/">Alicia Hotovec-Ellis</a>,
-		<a href="https://www.flickr.com/photos/jdaykin/">Jerrz Daykin</a>,
-		<a href="https://www.flickr.com/photos/paladin27/">Paladin 27</a>
-	</p>
+	
 
 	<!-- konec #paticka -->
 

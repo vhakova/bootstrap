@@ -14,7 +14,7 @@ světle šedá: #f0f0f0
 
 /* --- pod tuto čáru piš svoje CSS --- */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .paticka {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }
@@ -23,8 +23,19 @@ h2 {
     font-size: 48px;
 }
 
-h3, a {
-    color: #c5308a;
+h3, .mail, .logo, .paticka>p>a, .paticka>ul>li>a, .socky {
+    color: #c5308a !important;
+}
+
+.socky {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo {
+    font-weight: bold !important;
+    font-style: italic !important;
+    font-size: 35px !important;
 }
 
 a {
@@ -39,3 +50,16 @@ a:hover {
     background-color: #c5308a;
     color: white;
 }
+
+.fotka {
+    filter: grayscale();
+}
+
+.fotka:hover {
+    filter: none;
+}
+
+.nav-link:hover {
+    background-color: #c5308a !important;
+}
+
