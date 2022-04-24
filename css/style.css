@@ -42,6 +42,10 @@ h3, .mail, .logo, .paticka>p>a, .paticka>ul>li>a, .socky {
     font-size: 35px !important;
 }
 
+.paticka {
+    max-width: 100%;
+}
+
 a {
     text-decoration: none;
 }
